@@ -1,0 +1,15 @@
+p{
+    font-size: 25px;
+}
+input{
+    padding: 8px 15px;
+}
+form{
+    margin: 10px;
+}
+.inputContainer{
+    margin: 10px 0px;
+}
+span{
+    color: red;
+}

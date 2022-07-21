@@ -1,0 +1,618 @@
+2022-07-21 15:01:32.874 +0500 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-21 15:01:32.876 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Intern-21/.fdk/configs.json: Cannot find module 'C:\Users\Intern-21/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-21 15:01:32.876 +0500 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-07-21 15:01:32.877 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring D:\app/.fdk/configs.json: Cannot find module 'D:\app/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-21 15:01:32.877 +0500 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-07-21 15:01:32.877 +0500 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-07-21 15:01:32.877 +0500 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-21 15:01:32.877 +0500 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.20.0 on win32[0m
+2022-07-21 15:01:32.877 +0500 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "D:\app/.fdk/store.sqlite"[0m
+2022-07-21 15:01:32.878 +0500 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"create","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-07-21 15:01:32.878 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658391727310}}[0m
+2022-07-21 15:01:32.878 +0500 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-07-21 15:01:32.898 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658391727310}}[0m
+2022-07-21 15:01:32.902 +0500 [debug] ([34mcreate.js[0m) [31m'init' called with D:\app, undefined, undefined[0m
+2022-07-21 15:02:51.724 +0500 [debug] ([34mcreate.js[0m) [31mInitializing template "your_first_serverless_app" with product "freshchat".[0m
+2022-07-21 15:02:51.739 +0500 [info] A new Freshchat app was successfully created from template "your_first_serverless_app" with the following files.
+
+2022-07-21 15:02:59.558 +0500 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-21 15:02:59.561 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Intern-21/.fdk/configs.json: Cannot find module 'C:\Users\Intern-21/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-21 15:02:59.561 +0500 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-07-21 15:02:59.561 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring D:\app/.fdk/configs.json: Cannot find module 'D:\app/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-21 15:02:59.561 +0500 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-07-21 15:02:59.562 +0500 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-07-21 15:02:59.562 +0500 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-21 15:02:59.562 +0500 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.20.0 on win32[0m
+2022-07-21 15:02:59.562 +0500 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "D:\app/.fdk/store.sqlite"[0m
+2022-07-21 15:02:59.562 +0500 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":null,"gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-07-21 15:02:59.562 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658391727310}}[0m
+2022-07-21 15:02:59.562 +0500 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-07-21 15:02:59.565 +0500 [info] Installed fdk version: 8.4.0
+2022-07-21 15:02:59.596 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658391727310}}[0m
+2022-07-21 15:02:59.598 +0500 [info] For fdk documentation please visit:
+2022-07-21 15:02:59.598 +0500 [info] Freshdesk	https://developer.freshdesk.com/v2/docs/freshworks-cli/
+2022-07-21 15:02:59.598 +0500 [info] Freshservice	https://developer.freshservice.com/docs/freshworks-cli/
+2022-07-21 15:02:59.600 +0500 [info] Freshsales	https://developer.freshsales.io/docs/freshsales-sdk/
+2022-07-21 15:02:59.600 +0500 [info] Freshchat	https://developers.freshchat.com/v2/docs/quick-start/
+2022-07-21 15:02:59.601 +0500 [info] Freshconnect	https://developers.freshconnect.com/v2/docs/quick-start/
+2022-07-21 15:02:59.601 +0500 [info] Freshcaller	https://developers.freshcaller.com/docs/freshworks-cli/
+2022-07-21 15:02:59.601 +0500 [info] Freshteam	https://developer.freshdesk.com/v2/docs/freshworks-cli/
+2022-07-21 15:02:59.602 +0500 [info] Freshworks CRM	https://developer.freshworks.com/crm/docs/freshworks-cli/
+2022-07-21 15:03:05.569 +0500 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-21 15:03:05.572 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Intern-21/.fdk/configs.json: Cannot find module 'C:\Users\Intern-21/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-21 15:03:05.572 +0500 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-07-21 15:03:05.572 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring D:\app/.fdk/configs.json: Cannot find module 'D:\app/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-21 15:03:05.572 +0500 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-07-21 15:03:05.572 +0500 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-07-21 15:03:05.573 +0500 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-21 15:03:05.573 +0500 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.20.0 on win32[0m
+2022-07-21 15:03:05.573 +0500 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "D:\app/.fdk/store.sqlite"[0m
+2022-07-21 15:03:05.573 +0500 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-07-21 15:03:05.573 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658391727310}}[0m
+2022-07-21 15:03:05.573 +0500 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-07-21 15:03:05.867 +0500 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"whitelisted-domains":[],"engines":{"node":"14.20.0","fdk":"8.4.0"}}.[0m
+2022-07-21 15:03:05.867 +0500 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-07-21 15:03:05.870 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658391727310}}[0m
+2022-07-21 15:03:05.896 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658391727310}}[0m
+2022-07-21 15:03:06.176 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring D:\app/.report.json: Cannot find module 'D:\app/.report.json'
+Require stack:
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-21 15:03:07.369 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658391727310}}[0m
+2022-07-21 15:03:08.618 +0500 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-07-21 15:03:08.619 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-07-21 15:03:08.619 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-07-21 15:03:08.620 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-07-21 15:03:08.620 +0500 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if D:\app/config/ exists.[0m
+2022-07-21 15:03:08.620 +0500 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json,iparam_test_data.json[0m
+2022-07-21 15:03:08.621 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-07-21 15:03:08.621 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-07-21 15:03:08.631 +0500 [debug] ([34mevent-util.js[0m) [31mFound ["onAppInstallCallback","onExternalEventCallback","onAppUninstallCallback"] as exported functions.[0m
+2022-07-21 15:03:08.632 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-07-21 15:03:08.635 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-07-21 15:03:08.635 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-07-21 15:03:08.636 +0500 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-07-21 15:03:08.636 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-07-21 15:03:08.636 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-07-21 15:03:08.636 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-07-21 15:03:08.636 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-07-21 15:03:08.637 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-07-21 15:03:08.640 +0500 [warn] Please ensure that the following are addressed for quick review process.
+2022-07-21 15:03:08.640 +0500 [warn] [33m[WARN][0m iparam_test_data.json is deprecated, to test the installation page, visit - http://localhost:10001/custom_configs
+2022-07-21 15:03:08.641 +0500 [error] 
+2022-07-21 15:03:08.642 +0500 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./config,./manifest.json[0m
+2022-07-21 15:03:08.649 +0500 [debug] ([34minstall-util.js[0m) [31mdependency installer called with {}[0m
+2022-07-21 15:03:08.650 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:03:08.650 +0500 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-07-21 15:03:08.650 +0500 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-07-21 15:03:11.744 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-07-21 15:03:11.749 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-07-21 15:03:11.752 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-07-21 15:03:11.755 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity.js"[0m
+2022-07-21 15:03:11.757 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\record.js"[0m
+2022-07-21 15:03:11.759 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-07-21 15:03:11.793 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:03:11.793 +0500 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-07-21 15:03:11.794 +0500 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshchat account URL to start testing    
+e.g. https://web.freshchat.com/a/230117337757345/inbox/3/0/conversation/233020826993979?dev=true    
+Quit the server with Control-C.
+2022-07-21 15:03:11.796 +0500 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2022-07-21 15:03:11.796 +0500 [info] Populating test data with events found in the app
+2022-07-21 15:03:55.450 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:03:55.451 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:03:55.466 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:03:55.466 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:03:55.472 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:03:55.472 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:03:56.718 +0500 [debug] ([34mevent-util.js[0m) [31mFound ["onAppInstallCallback","onExternalEventCallback","onAppUninstallCallback"] as exported functions.[0m
+2022-07-21 15:04:29.487 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:04:29.488 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:04:29.549 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:12:55.518 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 15:16:54.047 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 15:18:30.292 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 15:19:17.859 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 15:23:30.715 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:23:30.715 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:23:30.764 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:24:43.392 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 15:25:17.410 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 15:25:20.877 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:25:20.878 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:25:20.927 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:25:34.172 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 15:25:35.376 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 15:25:38.401 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:25:38.402 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:25:38.451 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:25:57.870 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 15:27:15.320 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 15:27:57.480 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.css"}" to all listeners.[0m
+2022-07-21 15:28:00.238 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:28:00.239 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:28:00.288 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:28:10.836 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.css"}" to all listeners.[0m
+2022-07-21 15:28:13.627 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:28:13.627 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:28:13.675 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:28:24.299 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.css"}" to all listeners.[0m
+2022-07-21 15:28:26.541 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:28:26.542 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:28:26.588 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:28:38.937 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:28:38.937 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:28:38.985 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:28:39.182 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:28:39.183 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:28:39.203 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:28:39.404 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:28:39.404 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:28:39.424 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:28:39.860 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:28:39.861 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:28:39.887 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:28:40.088 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:28:40.088 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:28:40.108 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:28:46.888 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.css"}" to all listeners.[0m
+2022-07-21 15:29:18.417 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.css"}" to all listeners.[0m
+2022-07-21 15:29:20.516 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:29:20.517 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:29:20.565 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:29:28.257 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.css"}" to all listeners.[0m
+2022-07-21 15:29:29.984 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:29:29.985 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:29:30.031 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:29:30.889 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:29:30.891 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:29:30.915 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:29:31.240 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:29:31.240 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:29:31.259 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:29:31.486 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:29:31.487 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:29:31.511 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:29:31.784 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:29:31.785 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:29:31.805 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:29:31.995 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:29:31.996 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:29:32.014 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:29:32.209 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:29:32.209 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:29:32.237 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:29:32.440 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:29:32.440 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:29:32.460 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:29:32.644 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:29:32.645 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:29:32.668 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:29:32.789 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:29:32.789 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:29:32.836 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:29:50.056 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 15:29:51.570 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:29:51.571 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:29:51.615 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:29:53.086 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:29:53.086 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:29:53.106 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:29:53.663 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:29:53.663 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:29:53.683 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:29:54.213 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:29:54.213 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:29:54.239 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:30:08.049 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 15:30:18.898 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.css"}" to all listeners.[0m
+2022-07-21 15:30:20.986 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:30:20.986 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:30:21.034 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:31:06.759 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 15:31:09.716 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:31:09.717 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:31:09.756 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:31:09.961 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:31:09.961 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:31:09.986 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:31:10.094 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:31:10.095 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:31:10.116 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:32:02.879 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.css"}" to all listeners.[0m
+2022-07-21 15:35:10.953 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 15:35:12.359 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 15:35:17.631 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:35:17.632 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:35:17.671 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:35:17.923 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:35:17.923 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:35:17.965 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:35:18.201 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:35:18.202 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:35:18.227 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:35:18.460 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:35:18.460 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:35:18.486 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:35:18.703 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:35:18.704 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:35:18.723 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:36:14.259 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 15:36:31.918 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\assets\\iparams.css"}" to all listeners.[0m
+2022-07-21 15:36:34.025 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\assets\\iparams.css"}" to all listeners.[0m
+2022-07-21 15:36:36.421 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:36:36.422 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:36:36.468 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:37:09.321 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\assets\\iparams.css"}" to all listeners.[0m
+2022-07-21 15:37:11.850 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:37:11.850 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:37:11.894 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:37:32.885 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\assets\\iparams.css"}" to all listeners.[0m
+2022-07-21 15:37:35.097 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:37:35.098 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:37:35.137 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:38:18.157 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\assets\\iparams.css"}" to all listeners.[0m
+2022-07-21 15:38:21.924 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:38:21.924 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:38:21.971 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:38:23.903 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:38:23.903 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:38:23.924 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:38:24.102 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:38:24.102 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:38:24.121 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:38:24.314 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:38:24.314 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:38:24.336 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:38:24.569 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:38:24.569 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:38:24.590 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:38:46.750 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\assets\\iparams.css"}" to all listeners.[0m
+2022-07-21 15:38:49.148 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:38:49.149 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:38:49.196 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:38:50.956 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:38:50.957 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:38:50.980 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:38:51.341 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:38:51.341 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:38:51.364 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:38:51.735 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:38:51.735 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:38:51.797 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:39:07.047 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\assets\\iparams.css"}" to all listeners.[0m
+2022-07-21 15:39:10.281 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:39:10.281 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:39:10.321 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:39:51.292 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:39:51.292 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:39:51.338 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:39:51.535 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:39:51.535 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:39:51.555 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:39:51.737 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:39:51.738 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:39:51.752 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:39:51.982 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:39:51.982 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:39:52.009 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:39:52.202 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:39:52.202 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:39:52.221 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:40:14.094 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\assets\\iparams.css"}" to all listeners.[0m
+2022-07-21 15:40:16.313 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:40:16.313 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:40:16.347 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:40:18.215 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:40:18.215 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:40:18.231 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:40:18.797 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:40:18.797 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:40:18.819 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:40:27.438 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\assets\\iparams.css"}" to all listeners.[0m
+2022-07-21 15:40:29.961 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:40:29.961 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:40:30.008 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:40:56.282 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\assets\\iparams.css"}" to all listeners.[0m
+2022-07-21 15:40:59.695 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:40:59.695 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:40:59.737 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:41:31.616 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 15:41:35.345 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:41:35.345 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:41:35.383 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:42:08.705 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 15:42:11.645 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:42:11.646 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:42:11.688 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:42:25.390 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\assets\\iparams.css"}" to all listeners.[0m
+2022-07-21 15:42:28.016 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:42:28.017 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:42:28.063 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:43:40.266 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 15:43:44.463 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:43:44.463 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:43:44.494 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:43:58.428 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\assets\\iparams.css"}" to all listeners.[0m
+2022-07-21 15:44:01.258 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 15:44:01.258 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 15:44:01.300 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 16:09:29.653 +0500 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-21 16:09:29.655 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Intern-21/.fdk/configs.json: Cannot find module 'C:\Users\Intern-21/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-21 16:09:29.655 +0500 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-07-21 16:09:29.655 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring D:\app/.fdk/configs.json: Cannot find module 'D:\app/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-21 16:09:29.655 +0500 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-07-21 16:09:29.656 +0500 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-07-21 16:09:29.656 +0500 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-21 16:09:29.656 +0500 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.20.0 on win32[0m
+2022-07-21 16:09:29.656 +0500 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "D:\app/.fdk/store.sqlite"[0m
+2022-07-21 16:09:29.656 +0500 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-07-21 16:09:29.656 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658391727310}}[0m
+2022-07-21 16:09:29.657 +0500 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-07-21 16:09:29.919 +0500 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"whitelisted-domains":[],"engines":{"node":"14.20.0","fdk":"8.4.0"}}.[0m
+2022-07-21 16:09:29.920 +0500 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-07-21 16:09:29.922 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658391727310}}[0m
+2022-07-21 16:09:29.948 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658391727310}}[0m
+2022-07-21 16:09:31.271 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658391727310}}[0m
+2022-07-21 16:09:32.334 +0500 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-07-21 16:09:32.335 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-07-21 16:09:32.336 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-07-21 16:09:32.336 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-07-21 16:09:32.336 +0500 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if D:\app/config/ exists.[0m
+2022-07-21 16:09:32.337 +0500 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files assets,iparams.html,iparam_test_data.json[0m
+2022-07-21 16:09:32.337 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-07-21 16:09:32.337 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-07-21 16:09:32.348 +0500 [debug] ([34mevent-util.js[0m) [31mFound ["onAppInstallCallback","onExternalEventCallback","onAppUninstallCallback"] as exported functions.[0m
+2022-07-21 16:09:32.349 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-07-21 16:09:32.362 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-07-21 16:09:32.362 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-07-21 16:09:32.362 +0500 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-07-21 16:09:32.362 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-07-21 16:09:32.363 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-07-21 16:09:32.363 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-07-21 16:09:32.363 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-07-21 16:09:32.363 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-07-21 16:09:32.367 +0500 [warn] Please ensure that the following are addressed for quick review process.
+2022-07-21 16:09:32.368 +0500 [warn] [33m[WARN][0m iparam_test_data.json is deprecated, to test the installation page, visit - http://localhost:10001/custom_configs
+2022-07-21 16:09:32.369 +0500 [error] 
+2022-07-21 16:09:32.370 +0500 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./config,./manifest.json[0m
+2022-07-21 16:09:32.377 +0500 [debug] ([34minstall-util.js[0m) [31mdependency installer called with {}[0m
+2022-07-21 16:09:32.378 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 16:09:32.378 +0500 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-07-21 16:09:32.378 +0500 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-07-21 16:09:34.416 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-07-21 16:09:34.421 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-07-21 16:09:34.423 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-07-21 16:09:34.427 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity.js"[0m
+2022-07-21 16:09:34.430 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\record.js"[0m
+2022-07-21 16:09:34.433 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-07-21 16:09:34.486 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 16:09:34.487 +0500 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-07-21 16:09:34.487 +0500 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshchat account URL to start testing    
+e.g. https://web.freshchat.com/a/230117337757345/inbox/3/0/conversation/233020826993979?dev=true    
+Quit the server with Control-C.
+2022-07-21 16:09:34.488 +0500 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2022-07-21 16:09:34.489 +0500 [info] Populating test data with events found in the app
+2022-07-21 16:09:34.490 +0500 [info] To test the installation page, visit - http://localhost:10001/custom_configs
+2022-07-21 16:10:04.641 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 16:10:04.642 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 16:10:04.683 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 16:11:21.780 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:11:23.084 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:12:07.196 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:12:22.180 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:12:45.680 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:13:22.021 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:23:14.827 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:23:43.826 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:23:50.545 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:25:16.390 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:26:30.692 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:27:06.235 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:27:20.453 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 16:27:20.454 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 16:27:20.473 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 16:27:58.506 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:28:23.144 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:28:45.350 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:30:10.698 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:30:34.202 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:30:41.592 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 16:30:41.593 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 16:30:41.616 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 16:31:33.684 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:44:49.800 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:44:57.637 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\assets\\secondPage.html"}" to all listeners.[0m
+2022-07-21 16:45:29.532 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:45:31.549 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:48:33.248 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:48:43.887 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:49:22.722 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:49:29.687 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 16:49:29.687 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 16:49:29.710 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 16:52:42.518 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:52:52.269 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:54:31.137 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:54:39.275 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:54:46.999 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:55:49.321 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:56:09.184 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:56:55.169 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:57:04.504 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:57:19.372 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 16:59:59.340 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 17:00:47.373 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 17:01:58.303 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 17:02:10.992 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:02:10.992 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 17:02:11.009 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:02:36.123 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 17:02:55.204 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:02:55.204 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 17:02:55.254 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:09:24.660 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 17:09:42.301 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:09:42.301 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 17:09:42.350 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:10:30.062 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 17:12:08.399 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 17:12:10.927 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:12:10.928 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 17:12:10.960 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:12:35.324 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:12:35.325 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 17:12:35.371 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:12:46.579 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:12:46.579 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 17:12:46.611 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:12:46.955 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:12:46.955 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 17:12:46.978 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:12:47.592 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:12:47.593 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 17:12:47.615 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:12:47.916 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:12:47.916 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 17:12:47.936 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:12:59.288 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:12:59.288 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 17:12:59.317 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:13:07.392 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:13:07.392 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 17:13:07.423 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:13:21.982 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:13:21.982 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 17:13:22.028 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:13:22.365 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:13:22.365 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 17:13:22.386 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:13:22.714 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:13:22.714 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 17:13:22.733 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:13:23.028 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:13:23.029 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 17:13:23.057 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:14:13.910 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 17:14:17.201 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:14:17.201 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 17:14:17.250 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:16:05.000 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 17:16:08.511 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 17:16:11.756 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:16:11.756 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 17:16:11.805 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:16:22.582 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:16:22.583 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 17:16:22.615 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:17:57.653 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 17:18:06.693 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-21 17:18:11.649 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:18:11.650 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"app","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-21 17:18:11.698 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-21 17:18:53.200 +0500 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-21 17:18:53.202 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Intern-21/.fdk/configs.json: Cannot find module 'C:\Users\Intern-21/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-21 17:18:53.202 +0500 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-07-21 17:18:53.203 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring D:\app/.fdk/configs.json: Cannot find module 'D:\app/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-21 17:18:53.203 +0500 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-07-21 17:18:53.203 +0500 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-07-21 17:18:53.203 +0500 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-21 17:18:53.203 +0500 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.20.0 on win32[0m
+2022-07-21 17:18:53.203 +0500 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "D:\app/.fdk/store.sqlite"[0m
+2022-07-21 17:18:53.204 +0500 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-07-21 17:18:53.204 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658391727310}}[0m
+2022-07-21 17:18:53.204 +0500 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-07-21 17:18:53.488 +0500 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"whitelisted-domains":[],"engines":{"node":"14.20.0","fdk":"8.4.0"}}.[0m
+2022-07-21 17:18:53.488 +0500 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-07-21 17:18:53.491 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658391727310}}[0m
+2022-07-21 17:18:53.516 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658391727310}}[0m
+2022-07-21 17:18:54.965 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658391727310}}[0m
+2022-07-21 17:18:56.604 +0500 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-07-21 17:18:56.605 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-07-21 17:18:56.605 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-07-21 17:18:56.606 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-07-21 17:18:56.606 +0500 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if D:\app/config/ exists.[0m
+2022-07-21 17:18:56.606 +0500 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files assets,iparams.html,iparam_test_data.json[0m
+2022-07-21 17:18:56.606 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-07-21 17:18:56.607 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-07-21 17:18:56.617 +0500 [debug] ([34mevent-util.js[0m) [31mFound ["onAppInstallCallback","onExternalEventCallback","onAppUninstallCallback"] as exported functions.[0m
+2022-07-21 17:18:56.617 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-07-21 17:18:56.631 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-07-21 17:18:56.632 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-07-21 17:18:56.632 +0500 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-07-21 17:18:56.632 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-07-21 17:18:56.632 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-07-21 17:18:56.632 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-07-21 17:18:56.632 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-07-21 17:18:56.633 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-07-21 17:18:56.636 +0500 [warn] Please ensure that the following are addressed for quick review process.
+2022-07-21 17:18:56.637 +0500 [warn] [33m[WARN][0m iparam_test_data.json is deprecated, to test the installation page, visit - http://localhost:10001/custom_configs
+2022-07-21 17:18:56.637 +0500 [error] 
+2022-07-21 17:18:56.638 +0500 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./config,./manifest.json[0m
+2022-07-21 17:18:56.663 +0500 [error] Error: listen EADDRINUSE: address already in use :::10001
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.serverListen [as listen] (C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express-ws\lib\index.js:42:40)
+    at C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\cli\run.js:65:24
+    at new Promise (<anonymous>)
+    at listenOn (C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\cli\run.js:64:10)
+    at Object.run (C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\cli\run.js:223:26)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async runCLI (C:\Users\Intern-21\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\cli\index.js:217:9)
+undefined
