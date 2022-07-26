@@ -87,7 +87,7 @@
         var password =""
         var email =""
         var token = ""
-
+        
         function handleSubmit() {
             domain = document.getElementById('domain').value
             email = document.getElementById('email').value
@@ -115,13 +115,13 @@
                 console.log(token,email,domain,password)
                 // alert(token,email,domain,password)
                 showToast("success","Authentic credential")
-
+                
             }else{
                 showToast("error","Wrong credential")
-
+                
             }
         }
-
+        
         function showToast(toastType,data){
             console.log(toastType,data)
             document.querySelector('#type_toast').trigger({type : toastType ,content : data})
@@ -134,8 +134,8 @@
                 return false
             }
         }
-
-    </script>
+        
+        </script>
 </body>
 
 </html>
